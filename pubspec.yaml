@@ -1,0 +1,32 @@
+name: test_project
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0-211.0.dev <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  chewie: ^1.2.2
+  cupertino_icons: ^1.0.2
+  get_it: ^7.2.0
+  flutter_bloc: ^7.1.0
+  flutter_swiper: ^1.1.6
+  smooth_page_indicator: ^1.0.0+2
+  video_player: ^2.2.5
+  url_launcher: ^6.0.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
